@@ -4,7 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Member as Member;
 use App\Entity\Campaign as Campaign;
-use Doctrine\ORM\EntityManagerInterface;
+// use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -21,6 +21,7 @@ class MainController extends AbstractController
             'controller_name' => 'MainController',
         ]);
     }
+
 
     public function registerUser (Request $request)
     {
